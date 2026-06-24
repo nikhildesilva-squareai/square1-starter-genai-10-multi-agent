@@ -1,0 +1,6 @@
+{
+  "researcher": "Findings: B2B analytics startups commonly use seat-based and usage-based pricing, often with a free trial tier. Key open question: which model fits a self-serve motion.",
+  "coder": "def parse_iso(s):\n    from datetime import date\n    return date.fromisoformat(s[:10])\n# run: parse_iso('2026-06-22')",
+  "writer": "Introducing one-click export: you can now download your full dataset as CSV or JSON straight from the dashboard. No tickets, no waiting \u2014 your data, on your terms.",
+  "critic": "Two issues: (1) the retry counter increments after the sleep, so the last attempt is skipped (off-by-one); (2) the shared `attempts` dict is mutated without a lock \u2014 a race under concurrency. Add a lock and move the increment."
+}

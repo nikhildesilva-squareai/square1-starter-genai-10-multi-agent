@@ -1,0 +1,6 @@
+anthropic>=0.40
+pytest>=8.0
+# Optional for the stretch goals:
+# fastapi>=0.110
+# uvicorn>=0.29
+# redis>=5.0          # or use Supabase for the shared message bus

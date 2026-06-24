@@ -1,0 +1,42 @@
+[
+  {
+    "id": "s04",
+    "task": "Review this retry loop for race conditions and off-by-one errors.",
+    "expected_agent": "critic"
+  },
+  {
+    "id": "s05",
+    "task": "Investigate which open-source vector databases support hybrid search.",
+    "expected_agent": "researcher"
+  },
+  {
+    "id": "s07",
+    "task": "Summarise the quarterly findings into an executive summary for the board.",
+    "expected_agent": "writer"
+  },
+  {
+    "id": "s08",
+    "task": "Assess the migration plan and check for missing rollback steps.",
+    "expected_agent": "critic"
+  },
+  {
+    "id": "s03",
+    "task": "Draft a 150-word blog post announcing our new export feature.",
+    "expected_agent": "writer"
+  },
+  {
+    "id": "s06",
+    "task": "Refactor the script so the API endpoint returns paginated results.",
+    "expected_agent": "coder"
+  },
+  {
+    "id": "s01",
+    "task": "Research the typical pricing models used by B2B analytics startups.",
+    "expected_agent": "researcher"
+  },
+  {
+    "id": "s02",
+    "task": "Implement a function that parses an ISO-8601 timestamp into a date.",
+    "expected_agent": "coder"
+  }
+]
